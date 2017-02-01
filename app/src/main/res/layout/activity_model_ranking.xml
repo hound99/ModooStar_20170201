@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_model_ranking"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dbdbdeep.modoostar.ModelRankingActivity">
+
+    <include
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/inc_model_topbar" />
+
+</RelativeLayout>

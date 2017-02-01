@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- radio_gender_f.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false" android:drawable="@drawable/intro_button_intro_01"/>
+    <item android:state_checked="true" android:drawable="@drawable/intro_button_intro_01"/>
+</selector>

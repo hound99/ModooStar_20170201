@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+
+    <RelativeLayout
+        android:layout_width="119.00dp"
+        android:layout_height="79.5dp">
+
+        <ImageView
+            android:layout_width="59.5dp"
+            android:layout_height="79.5dp"
+            app:srcCompat="@drawable/main_vs_picture_im_left"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/ivLeft"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:layout_width="59.5dp"
+            android:layout_height="79.5dp"
+            app:srcCompat="@drawable/main_vs_picture_im_right"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/ivRight"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/main_vs_icon"
+            android:id="@+id/imageView5"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:textSize="12.50dp"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textSize="11.25dp"
+            android:textStyle="bold"
+            android:textColor="#f00"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textSize="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4.5dp"
+        android:paddingRight="4.5dp">
+
+        <Button
+            android:layout_width="55.50dp"
+            android:layout_height="22.50dp"
+            android:id="@+id/btStart"
+            android:background="@drawable/main_vs_button_01"
+            android:layout_marginBottom="7dp"
+            android:focusableInTouchMode="false"
+            android:focusable="false"/>
+
+        <Button
+            android:layout_width="55.50dp"
+            android:layout_height="23dp"
+            android:id="@+id/btResult"
+            android:background="@drawable/main_vs_button_02"
+            android:focusableInTouchMode="false"
+            android:focusable="false" />
+    </LinearLayout>
+</LinearLayout>
